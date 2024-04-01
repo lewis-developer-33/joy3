@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.3",
+    "node-rules": "^9.1.1",
+    "node-tesseract-ocr": "^2.2.1",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.2",
+    "tesseract.js": "^5.0.5"
+  }
+}
